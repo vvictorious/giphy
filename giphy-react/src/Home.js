@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './Home.css';
+import Search from './Search';
 
 class Home extends Component {
   render() {
     return (
       <div>
 
-      <h1> Hello World </h1>
+        <h1> Hello World </h1>
+        <Search />
         
       </div>
     );
